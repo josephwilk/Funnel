@@ -35,6 +35,7 @@
 		F322E7FA1EDB2567007518A0 /* SyphonClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F322E7F71EDB2567007518A0 /* SyphonClient.m */; };
 		F322E7FB1EDB2567007518A0 /* SyphonClientConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F322E7F91EDB2567007518A0 /* SyphonClientConnectionManager.m */; };
 		F322E7FD1EDB2583007518A0 /* SyphonServerDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = F322E7FC1EDB2583007518A0 /* SyphonServerDirectory.m */; };
+		F3CD86E81EDB28BF00F860D3 /* FunnelClientHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD86E71EDB28BF00F860D3 /* FunnelClientHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,8 @@
 		F322E7FC1EDB2583007518A0 /* SyphonServerDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonServerDirectory.m; sourceTree = "<group>"; };
 		F322E7FE1EDB25F0007518A0 /* SyphonBuildMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyphonBuildMacros.h; sourceTree = "<group>"; };
 		F322E7FF1EDB25F0007518A0 /* Syphon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syphon_Prefix.pch; sourceTree = "<group>"; };
+		F3CD86E71EDB28BF00F860D3 /* FunnelClientHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnelClientHandler.m; sourceTree = "<group>"; };
+		F3CD86E91EDB292200F860D3 /* FunnelClientHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunnelClientHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +271,8 @@
 				0FE12D52186C1EAC00E9FD74 /* Funnel.m */,
 				0FF410AA186FC38D0017707E /* FunnelServerHandler.h */,
 				0FF410AB186FC38D0017707E /* FunnelServerHandler.m */,
+				F3CD86E71EDB28BF00F860D3 /* FunnelClientHandler.m */,
+				F3CD86E91EDB292200F860D3 /* FunnelClientHandler.h */,
 				0F12FBB41C63833500627EFD /* PluginInterface.cpp */,
 			);
 			path = Funnel;
@@ -399,6 +404,7 @@
 				0F93B8201C68D1260049C71C /* SyphonMessageReceiver.m in Sources */,
 				F322E7F41EDB252B007518A0 /* SyphonOpenGLFunctions.c in Sources */,
 				0F93B81C1C68D1260049C71C /* SyphonIOSurfaceImage.m in Sources */,
+				F3CD86E81EDB28BF00F860D3 /* FunnelClientHandler.m in Sources */,
 				0F93B8241C68D1260049C71C /* SyphonPrivate.m in Sources */,
 				0F93B8271C68D1260049C71C /* SyphonServerConnectionManager.m in Sources */,
 				0F93B8221C68D1260049C71C /* SyphonMessaging.m in Sources */,
