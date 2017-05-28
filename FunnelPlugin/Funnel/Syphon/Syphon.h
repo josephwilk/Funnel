@@ -27,5 +27,8 @@
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#import "SyphonServerDirectory.h"
 #import "SyphonServer.h"
+#import "SyphonClient.h"
 #import "SyphonImage.h"
+
